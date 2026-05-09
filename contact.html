@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        input,
+            textarea{
+                width: 80%;
+                height: 40px;
+            }
+        }
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button{
+            background-color:black;
+            color: aliceblue;
+            
+            
+        }
+        body{
+            background-color: rgb(109, 109, 230);
+            font-size: large;
+        }
+
+h1{
+        text-align:center
+}
+        button {
+            padding: 15px;px;
+            margin: 10px;
+            
+        }
+    form {
+        width:400px;
+        margin : 50px auto;
+    </style>
 </head>
 <body>
  <div class="toplink">  
@@ -25,20 +58,29 @@
 
     <form action="">
 
-        <label for="Fullname">FullName:</label><br>
-        <input type="text" name="Fullname" placeholder="Enter your Name"
-        required><br>
+        <form action="">
 
-        <label for="Email">Email:</label><br>
-        <input type="email" name="Email" placeholder="Enter your Email"
-        required><br>
-        <label for="number">number:</label><br>
-        <input type="number" name="" placeholder="Enter your Phone Number"
-        required><br>
-        <label for="subject line">subject line</label><br>
-        <input type="subject" name="" placeholder="Enter your subject" required ><br>
-        <label for= "message">message:</label><br>
-<input type="message" name ="message" placeholder="Enter your message" required><br>
+<label for="fullname">Full Name:</label><br>
+<input type="text" placeholder="Enter your full name" required><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" placeholder="Enter your email" required><br><br>
+
+<label for="number">Number:</label><br>
+<input type="number" placeholder="Enter your phone number" required><br><br>
+
+<label for="subject">Subject Line:</label><br>
+<input type="text" placeholder="Enter your subject" required><br><br>
+
+<label for="message">Message:</label><br>
+<textarea placeholder="Enter your message"></textarea><br><br>
+
+<button type="submit" style="float:right;">Submit</button>
+
+<button type="reset" style="float:left;">Reset</button>
+
+</form>
+    </form>
 </dl>
 </body>
 </html>
